@@ -1,0 +1,221 @@
+@import "../css/styles.css";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  margin: 0 auto 0;
+  min-height: 183px;
+}
+
+nav {
+  position: fixed;
+  height: 92.5px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 4px solid black;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logos/logo-black.png);
+}
+nav .links {
+  height: 42px;
+  width: 490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.home .about {
+  color: black;
+  margin-left: 205px;
+  margin-right: 160px;
+}
+.home .about .about-title {
+  font-size: 50px;
+}
+.home .about .not-underlined {
+  text-decoration: none;
+}
+
+.client-quotes {
+  padding-top: 95px;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.client-quotes .quotes-title {
+  margin-left: 205px;
+  font-size: xx-large;
+}
+.client-quotes .client1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-left: 205px;
+}
+.client-quotes .client1 .client-image1 {
+  height: 150px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/about-client-01.jpg);
+}
+.client-quotes .client1 .client-text {
+  padding-left: 21px;
+  height: 102px;
+  width: 385px;
+}
+.client-quotes .client1 .client-name {
+  padding-top: 20px;
+  text-align: right;
+  color: #79ADDC;
+}
+.client-quotes .client2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-left: 205px;
+  padding-top: 37px;
+}
+.client-quotes .client2 .client-image2 {
+  height: 150px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/about-client-02.jpg);
+}
+.client-quotes .client2 .client-text2 {
+  padding-left: 21px;
+  height: 102px;
+  width: 385px;
+}
+.client-quotes .client2 .client-name2 {
+  padding-top: 20px;
+  text-align: right;
+  color: #79ADDC;
+}
+
+footer .footer {
+  background-color: #79ADDC;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 179px;
+  margin: 0 auto;
+  width: 1280px;
+  margin-top: 179px;
+}
+footer .footer-logo {
+  width: 136px;
+  height: 60px;
+  background-image: url(../images/logos/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .footer-link {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+footer .facebook {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/facebooklogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+footer .instagram {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/instagramlogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+footer .twitter {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/twitterlogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
